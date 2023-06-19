@@ -12,6 +12,7 @@
 		09854EE52A3E51FF00246A35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09854EE42A3E51FF00246A35 /* Assets.xcassets */; };
 		09854EE82A3E51FF00246A35 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09854EE72A3E51FF00246A35 /* Preview Assets.xcassets */; };
 		09854EF02A3E54BA00246A35 /* UpdateProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09854EEF2A3E54BA00246A35 /* UpdateProfileView.swift */; };
+		09854EF22A3FE23800246A35 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09854EF12A3FE23700246A35 /* DashboardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		09854EE42A3E51FF00246A35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09854EE72A3E51FF00246A35 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		09854EEF2A3E54BA00246A35 /* UpdateProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateProfileView.swift; sourceTree = "<group>"; };
+		09854EF12A3FE23700246A35 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			children = (
 				09854EE22A3E51FE00246A35 /* ContentView.swift */,
 				09854EEF2A3E54BA00246A35 /* UpdateProfileView.swift */,
+				09854EF12A3FE23700246A35 /* DashboardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			files = (
 				09854EE32A3E51FE00246A35 /* ContentView.swift in Sources */,
 				09854EF02A3E54BA00246A35 /* UpdateProfileView.swift in Sources */,
+				09854EF22A3FE23800246A35 /* DashboardView.swift in Sources */,
 				09854EE12A3E51FE00246A35 /* RouterForViewModelApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
