@@ -34,17 +34,6 @@ struct ContentView: View {
     }
 }
 
-struct PresentDashBoard: View {
-    @Binding var navigateToDashboardScreen: Bool
-
-    var body: some View {
-        Button {
-            navigateToDashboardScreen = true
-        } label: {
-            Text("Present DashBoard")
-        }
-    }
-}
 
 struct UpdateProfileButton: View {
     @Binding var navigateToDetailScreen: Bool
